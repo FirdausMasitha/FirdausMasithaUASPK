@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rcozy</title>
+  <link rel="stylesheet" href="stylesheet.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="login.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="header-left">
+        <div class="header-logo"><a href="index.html">Rcozy</a></div>
+        <div class="header-list">
+          <ul>
+            <li><a href="index.html">Beranda</a></li>
+            <li><a href="produk.html">Produk</a></li>
+            <li>
+              <form>
+                <input class="search" type="text" placeholder="Cari..." required>
+                <input class="button" type="button" value="Cari">		
+              </form>
+            </li>
+            <li><a href="pesan.php" class="login"><span class="fa fa-shopping-cart"></span>Pesan</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="header-right">
+        <a href="login.html" class="login"><span class="fa fa-user"></span>log in</a>
+      </div>
+    </div>
+  </header>
+  <div id="card">
+    <div id="card-content">
+      <div id="card-title">
+        <h2>LOGIN</h2>
+        <div class="underline-title"></div>
+      </div>
+      <form method="post" class="form">
+        <label for="user-email" style="padding-top:13px">
+            &nbsp;Email
+          </label>
+        <input id="user-email" class="form-content" type="email" name="email" autocomplete="on" required />
+        <div class="form-border"></div>
+        <label for="user-password" style="padding-top:22px">&nbsp;Password
+          </label>
+        <input id="user-password" class="form-content" type="password" name="password" required />
+        <div class="form-border"></div>
+        <a href="#">
+          <legend id="forgot-pass">Forgot password?</legend>
+        </a>
+        <input id="submit-btn" type="submit" name="submit" value="LOGIN" />
+        <a href="#" id="signup">Don't have account yet?</a>
+      </form>
+    </div>
+  </div>
+  <footer>
+    <div class="container">
+      <div class="footer-logo"><a href="About.html">Rcozy</a></div>
+        <div class="footer-list">
+          <h3>Hubungi Kami:</h3>
+          <ul>
+            <li><a href="feedback.html">Feedback</a></li>
+            <li><a href="https://www.twitter.com"><span class="fa fa-twitter"></span>twitter</a></li>
+            <li><a href="https://www.instagram.com"><span class="fa fa-instagram"></span>instagram</a></li>
+          </ul>
+        </div>
+      </ul>
+    </div>
+   </footer>
+  </body>
+  </html>
